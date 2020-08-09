@@ -1,0 +1,45 @@
+Sentiment Analysis or NLP in practice
+
+From my previous post, you had a short briefing about NLP, what it is and why it's an important research area among the AI community. In this post I want take you to an NLP branch with a growing popularity: Sentiment analysis.
+
+What's sentiment analysis? Lets say, you are running for president on one of the most powerful countries on earth, you are going to a debate on national TV against your direct contender, you need to win this debate desperately. There will be a lot of sensitive topics, like immigration and health care policies, one false step will make you lose the presidency. Wouldn't be great to know what the people is thinking of your speech as soon as possible? Wouldn't be nice to gather these insights on what people think and modify your speech? With sentiment analysis, this is possible.
+
+You will need a stream of text data with the opinions of the electors and a trained model to classify the opinions. The data, of course, is available right now on social networks like Twitter, the place where you and I publish our opinions about ... well, about everything. The trained model ... that's the tricky part.
+
+Sentiment analysis in action
+No really, what sentiment analysis is?
+
+The previous example is not entirely fiction as you may suppose, but analysing a huge stream of data to gather insights and change a debate posture in real time is difficult, as you may face computers processing restrictions. Nevertheless, the example gives you a clue about what sentiment analysis is.
+
+Also known as opinion mining, the sentiment analysis intends to extract information from texts in natural language, precisely, what someone (or something) referred on the texts, thinks about someone (or something) referred in the same text too. What's an opinion? What's a sentiment? The difference is subtle, but let's say the opinion is a concrete view, whereas the sentiment is related to a feeling: "He's worried about the republicans winning the white house" denotes a sentiment, "I think the democrats will ruin the country" is an opinion.
+
+It may seem trivial to detect the opinion (or sentiment) among a text, but let me give you some examples of why it's not so simple. An opinion may be direct "I hate hip hop lyrics" or indirect "This new electric car saves me a lot of money", note the specific naming of the feeling in the first phrase. The opinion may be also explicit "I love the guitar sound on metal music" (also a direct opinion) or implicit "With right wing  politics I would have freedom to buy guns". It's important to keep and eye on the context, which makes difficult to understand the opinion, in the implicit example, is the opinion holder showing support or rejection?, quite difficult to know, as the person who speaks may be ok with people having guns.
+
+To detect the sentiment in a text, there is a growing popularity subarea of sentiment analysis, the polarity classification. Having a text, the polarity classification assigns a label according to the sentiment exhibited from an entity to an aspect of another entity which is referred in the text. In the polarity classification three common tags are used: negative, positive and neutral. Positive and negative sentiments are valuable on the analysis, the subjectivity is where the opinion lies, and form the base to take decisions, for example:
+
+"Most electors think it's a good idea to build a wall to stop illegal immigration"
+"As a religious man, I hate the idea of gay adoption"
+
+The texts with neutral polarity are the kind of "I don't know which candidate is the best" and exhibit some value in order to detect indecision.
+
+Just polarity classification?
+
+No. The definition of sentiment analysis fits in the polarity classification task, and that's why is the core task, but there are other areas. Have you thought in phrases like: "There is no girls in this party, what a great way to enjoy a Saturday night!", or "I just started to read your book, now I'm sure I wont have any problem to sleep at nights". The first one is an irony, as express the opposite of what's the speaker is trying to say, the second one is sarcasm, as wraps a criticism towards a particular victim. Sentiment analysis handles this kind of texts in an area called Sarcasm and Irony detection.
+
+With the popularity of social networks, it's easier to tailor a campaign in order to increase the sells of a product, on the other side, the marketplaces selling products allows the customer reviews. It's common to create campaigns to spread fake information, and to create fake reviews with the goal in mind to distort the audience opinion. This activity is known as opinion spam, and there's and area called opinion spam detection to handle it.
+
+As you have seen from the previous examples, I have talked about the sentiment in the texts, but it may be valuable to extract the opinion holder, who is having the sentiment? The electors? The politicians? The author of the text? Or is the author talking of a third person?, this is an important analysis for the decision maker, and the area for this task is Entity opinion holder extraction.
+
+Sentiment Analysis in real life
+
+There are two main areas which came to my mind that take advantage of the sentiment analysis: politics and e-commerce. As I pointed in the beginning, knowing what people thinks in social networks, is highly valuable for politics, remember how in the past, Big data has been used in the race for power (Cambridge Analytica and Obama campaign). Twitter is a special social network in the political arena, day by day the trending topics include economics and social context, with a huge amount of user interacting, leaving their opinions. Reflect about the power to understand what all this users think, contemplate the opportunity to cluster this users into supporters and detractors and to tailor campaigns to retain your supporters and to convince undecided.
+
+Invest in social media campaigns addressed to the right target
+
+On e-commerce, you have probably watched the review section for products, where customer rate items from 1 to 5 stars (in most cases), and then they write what they think about the item. It's kinda trivial to know if a customer like or dislike a product according to their star rate, what's difficult is to know what exactly do they value about the product, or what they hate.  In a review with 5 stars you may find phrases like "I love it" but you also may find "I love how the battery of this cell phone last 8 hours"; similarly, on a 1 star review, the text may be "Your product sucks" or "I don't like the game take so much time to load". in both scenarios, on the specific reviews, you get the parts for the sentiment analysis: an opinion holder, an entity, an aspect of such entity and the sentiment to that aspect emitted by the opinion holder, imagine the opportunity to process automatically all the reviews, and to detect what people like and what people hate, and imagine taking this knowledge to your product team. You could improve your NPS and hopefully your incomes.
+
+Why to go deep
+
+Some years ago the Big Data term was coined, and it's now a common concern in all technology areas, if you think in the amount of data being produced in a single social network as Twitter on a single topic, you will be aware of the necessity to create decision support systems to manage these huge data waves to produce knowledge; that's why, I deliberately leave a term outside the sentiment analysis definition: automatic. The final goal of the sentiment analysis is to produce automatic tools for detection, if you combine the opportunity to gather data on Internet and the knowledge to build tools that detect sentiments, you may create a solutions to give your company a decisive advantage, to foreseeing the political future of your country, or what comic book to buy and don't regret.
+
+If you want to put your hands on real code for sentiment analysis check my repo.

@@ -1,0 +1,1 @@
+# Text Similarity between Michelle Obama and Melania Trump speeches

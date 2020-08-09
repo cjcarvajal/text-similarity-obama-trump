@@ -1,0 +1,22 @@
+A Word about Oracle Java Certifications
+
+The Oracle Java Enterprise Architect Certification is one of the  last levels of the certification path which gives you the Oracle Certified Master grade, is one of the toughest tech certification (at least that was in the mail I received when I pass), beside the fact that gives you confidence in your decisions, respect from your colleagues and a great boost on your resume, the most important thing obtaining this certification as some will say is not the destiny but the journey.
+
+Some people are really confident on their developing abilities, and that's perfectly okay, I know many brilliant guys who started to develop earlier than me and write beautiful code; as them I was very confident of my code... until I start the certification path. I started such path as a way to "decorate" my CV, but I witnessed in the process , how much I had to learn and how much my code and my design capability could be improved.
+
+I have achieved the next certifications:
+
+Java Programmer 1
+Java Programmer 2
+Java Web Services Developer
+Java Enterprise Architect
+
+For each certification I took at least one Oracle course to prepare myself, and I can tell you this courses really worth the price you pay, beside the new specific features of the current JDK version, you will learn some good code practices and some other you must avoid when writing in Java, the lessons about OO principles and design were really useful, no matter if you are experienced in the area (as I was in that time) some principles may be constantly reviewed to avoid common pitfalls.
+
+The two first levels really get me into Java insides, some things that you give for sure, as the String management, the memory management divided into Heap and Stack, the way Java handles references and the common practices to exception handling, knowing this topics at detail are going to make you a better Java developer for sure.
+
+The next level, called OCE (Oracle Certified Expert) gave me three different choices, Java Web Components, Java ME and Java Web Services, I took the last option because, the two former were specific for Java technology, also the Web Component option is focused on Servlets, a technology only util to learn if you are going to maintain legacy code (for previous JEE versions, this is not a bad idea as many financial companies actually have servlets in production environment). Java ME is a choice I disregard because mobile apps are being developed in normal Java (in Android) or Swift (for iOs) and even Javascript (web and cross platforms); but must important, the Web Services are a language transversal technology and so the course I took was imparted, you will learn of course how to implement Web Services in Java, but also good practices to design SOAP and REST services, security, client development and patterns (as asynchronous communication).
+
+Finally, the last step of my Java journey, was the Java Enterprise Architect certification, I took two courses for this one. The first one was how to develop enterprise  applications, I must warn you, this certification is not focused in making you a great developer, in this level you are supposed to be one already, being a Java Enterprise Architect is driven to the knowledge of non functional requirements, how to make an app secure, maintainable, scalable (among others). The second course was focused on Design patterns  a "must have" skill for a senior developer, this certification is different to obtain, as you must present an exam, a project, and an essay (in a next post, I will explain how I pass through this 3 steps).
+
+It was a long journey (like three years with no break) since i begin the path, it feels good to have the official logo for each level, but, my real intention talking you about the path, is to encourage you (Java developer)  to learn in detail the most popular language right now and for a decade, to not stay scratching the surface, and to continually improve yourself.
